@@ -17,44 +17,52 @@
     }
 
     .boots {
+        margin-top: 30px;
         font-size: 20px;
-        padding: 15px;
+        margin-left: 25px;
     }
 
     .boots2 {
         font-size: 15px;
-        padding: 15px;
+        margin-left: 25px;
         line-height: 20px;
+        color: #666666;
     }
 
     .price{
         font-size: 35px;
-        padding: 15px;
+        margin-left: 25px;
+        margin-bottom: 30px;
     }
     
     .img {
         margin-top: 1px;
-        width: 342px;
+        width: 300px;
+        height: 205px;
     }
 
     .icon {
         position: relative;
+        width: 40px;
+        height: 40px;
         top: 10px; left: 100px;
         padding: 5px;
     }
 
     .container {
         font-family: Roboto;
-        width: 346px; /* Ширина блока */
+        width: 305px; /* Ширина блока */
         padding: 0px; /* Поля */
         margin-top: 10px; /* Отступ сверху */
         box-sizing: border-box; /* Ширина блока с полями */
-        border: 2px solid rgb(228, 225, 225); /* Рамка вокруг таблицы */
-            color: black;
+        border: 2px solid #e2e2e2; /* Рамка вокруг таблицы */
+            color: #333333;
+            background-color: #FFFFFF;
     }
 
-
-
+    .price1 {
+        margin-bottom: 30px;
+    }
 
 
    
