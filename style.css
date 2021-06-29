@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    margin: 20px;
+    padding: 0;
+  }
+  .grid-container {
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+  .grid-item {
+    height: 550px;
+    font-size: 1.1em;
+    padding: 1.5em;
+    color: white;
+  }
+  .color1 {
+    width: 400px;
+    border: 0.5px solid rgb(168, 167, 167); /* Рамка вокруг таблицы */
+      color: black;
+  }
+  .color2 {
+    width: 400px;
+    border: 0.5px solid rgb(170, 168, 168); /* Рамка вокруг таблицы */
+    color: black;
+  }
+  .color3 {
+    width: 400px;
+    border: 0.5px solid rgb(184, 181, 181); /* Рамка вокруг таблицы */
+    color: black;
+  }
+  .heading {
+    font-size: 20px;
+}
+
+  .size {
+    font-size: 15px;
+}
+
+  .price{
+    font-size: 35px;
+}
+.icon {
+font-size: 3em; /* Размер иконок */
+display: block; /* Блочный элемент */
+}
+
+.img {
+ margin: 0;
+ width: 344px;
+} * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 20px;
+        padding: 0;
+      }
+      .grid-container {
+        height: 40vh;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+      }
+      .grid-item {
+        height: 550px;
+        font-size: 1.1em;
+        padding: 1.5em;
+        color: white;
+      }
+      .color1 {
+        width: 400px;
+        border: 0.5px solid rgb(168, 167, 167); /* Рамка вокруг таблицы */
+          color: black;
+      }
+      .color2 {
+        width: 400px;
+        border: 0.5px solid rgb(170, 168, 168); /* Рамка вокруг таблицы */
+        color: black;
+      }
+      .color3 {
+        width: 400px;
+        border: 0.5px solid rgb(184, 181, 181); /* Рамка вокруг таблицы */
+        color: black;
+      }
+      .heading {
+        font-size: 20px;
+    }
+
+      .size {
+        font-size: 15px;
+    }
+
+      .price{
+        font-size: 35px;
+    }
+    .icon {
+    font-size: 3em; /* Размер иконок */
+    display: block; /* Блочный элемент */
+   }
+
+   .img {
+     margin: 0;
+     width: 344px;
+   }
+   
